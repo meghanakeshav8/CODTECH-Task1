@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body bgcolor="skyblue">
+    <div class="container">
+        <h1>Note Taking App</h1>
+        <div id="editor" contenteditable="true" class="editor" placeholder="Write your note here..."></div>
+        <button id="saveNoteBtn">Save Note</button>
+        <button id="clearEditorBtn">Clear</button>
+        <h2>Notes</h2>
+        <div id="notesContainer" class="notes-container"></div>
+        <h2>Drawing Canvas</h2>
+        <canvas id="drawingCanvas" width="500" height="300"></canvas>
+        <button id="clearCanvasBtn">Clear Canvas</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
